@@ -153,9 +153,29 @@ form input {
   padding: 1%;
 }
 
+form input[type='submit'] {
+  width: 65%;
+  margin-top: 0;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+
+.btn-send {
+  background-color: var(--prussian-blue);
+  color: var(--mint-cream);
+}
+
+.btn-send:hover {
+  background-color: var(--mint-cream);
+  color: var(--prussian-blue);
+}
+
 form textarea {
   margin-top: 2%;
   margin-bottom: 2%;
   width: 95%;
   font-size: 1.2em;
+  border: 1px solid var(--oxford-blue);
+  border-radius: 5px;
+  padding: 1%;
 }

@@ -26,10 +26,11 @@
         <main>
             <section class="container">
                 <h1>Envie-me uma mensagem</h1>
-                <form action="./contact.html">
-                    <input name="name" type="text" placeholder="Nome">
-                    <input name="email" type="email" placeholder="Email">
-                    <textarea name="message" cols="30" rows="5" placeholder="Mensagem"></textarea>
+                <form action="./contact.html" method="POST">
+                    <input name="name" type="text" placeholder="Nome" required>
+                    <input name="email" type="email" placeholder="Email" required>
+                    <textarea name="message" cols="30" rows="5" placeholder="Mensagem" required></textarea>
+                    <input class="btn-send" name="send" type="submit" value="Enviar">
                 </form>
             </section>
         </main>
