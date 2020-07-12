@@ -1,0 +1,161 @@
+:root {
+  --indigo-dye: #134074ff;
+  --prussian-blue: #13315cff;
+  --oxford-blue: #0b2545ff;
+  --cadet-grey: #8da9c4ff;
+  --mint-cream: #eef4edff;
+}
+
+.navbar {
+  width: 100%;
+  text-align: center;
+  background-color: var(--oxford-blue);
+}
+
+.navbar a {
+  font-size: 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  padding: 1.5% 4%;
+  color: var(--mint-cream);
+}
+
+.navbar a:hover {
+  background-color: var(--mint-cream);
+  color: var(--oxford-blue);
+}
+
+.hero {
+  background-color: rgba(var(--mint-cream), 0.5);
+  background-image: url("../img/bg-code_1280-847.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  padding: 6% 0;
+}
+
+.hero h1 {
+  font-family: "Overlock SC";
+  font-size: 2em;
+  color: var(--indigo-dye);
+  text-align: center;
+}
+
+.hero p {
+  font-family: "Overlock SC";
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.light {
+  background-color: var(--mint-cream);
+  color: var(--oxford-blue);
+}
+
+.dark {
+  background-color: var(--indigo-dye);
+  color: var(--indigo-dye);
+}
+
+.container h1 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1.5em;
+  color: var(--oxford-blue);
+  text-align: center;
+  padding: 2% 0;
+}
+
+.links {
+  text-align: center;
+}
+
+.links i {
+  padding: 2% 3%;
+}
+
+footer {
+  width: 100%;
+  color: var(--mint-cream);
+  background-color: var(--oxford-blue);
+  padding: 2.5%;
+}
+
+footer p {
+  font-size: 1em;
+  text-align: center;
+}
+
+.academy {
+  display: flex;
+  justify-content: center;
+}
+
+.academy p {
+  background-color: var(--indigo-dye);
+  color: var(--mint-cream);
+  width: 25%;
+  padding: 1.5% 2%;
+  margin: 0 1% 2%;
+
+  border: 1px solid var(--indigo-dye);
+  border-radius: 8px;
+
+  align-content: center;
+
+  text-align: justify;
+}
+
+.work-xp {
+  display: flex;
+  justify-content: center;
+}
+
+.work-xp p {
+  background-color: var(--mint-cream);
+  color: var(--indigo-dye);
+  width: 25%;
+  padding: 1.5% 2%;
+  margin: 0 1% 2%;
+
+  border: 1px solid var(--mint-cream);
+  border-radius: 8px;
+
+  align-content: center;
+
+  text-align: justify;
+}
+
+.container.dark h1 {
+  color: var(--mint-cream);
+}
+
+form {
+  width: 65%;
+  margin: 0 auto 3%;
+  text-align: center;
+  border: 1px solid var(--prussian-blue);
+  border-radius: 8px;
+  background-color: var(--cadet-grey);
+}
+
+form input {
+  width: 95%;
+  margin-top: 2%;
+  font-size: 1.2em;
+  border: 1px solid var(--oxford-blue);
+  border-radius: 5px;
+  padding: 1%;
+}
+
+form textarea {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 95%;
+  font-size: 1.2em;
+}
